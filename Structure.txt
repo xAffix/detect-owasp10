@@ -1,0 +1,16 @@
+owasp_scanner/
+│
+├── main.py
+├── scanner/
+│   ├── __init__.py
+│   ├── sql_injection.py
+│   ├── broken_auth.py
+│   ├── xss.py
+│   └── utils.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_sql_injection.py
+│   ├── test_broken_auth.py
+│   └── test_xss.py
+├── requirements.txt
+└── README.md
